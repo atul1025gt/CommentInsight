@@ -1,0 +1,93 @@
+/* Overall container */
+.home-page {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  min-height: 100vh;
+  background-color: #eef2f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fixed header with app name */
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-name {
+  font-weight: bold;
+}
+
+/* Content container with spacing to avoid header overlap */
+.content {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+/* Heading styling */
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.url-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+.url-form label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+/* Input field styling */
+.url-form input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  transition: border 0.3s ease;
+}
+
+.url-form input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Button styling */
+.url-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.url-form button:hover {
+  background-color: #0056b3;
+}

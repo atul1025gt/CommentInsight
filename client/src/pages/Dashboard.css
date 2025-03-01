@@ -1,0 +1,47 @@
+.dashboard {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    min-height: 100vh;
+    background-color: #eef2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Fixed header with app name */
+  .app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-name {
+    font-weight: bold;
+  }
+  
+  /* Content container with spacing for the fixed header */
+  .dashboard-content {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  
+  /* Chart container styling */
+  .chart-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    text-align: center;
+  }
+  
